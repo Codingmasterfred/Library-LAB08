@@ -36,7 +36,7 @@
                      
                 }
                 else if (choice == "2")
-                {
+                { 
                     Console.WriteLine("Name the title of the book you will like to borrow ");
                     string Title = Console.ReadLine();
                    Book book = myLibrary.Borrow(Title);
