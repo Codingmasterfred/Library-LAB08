@@ -44,7 +44,7 @@
                 }
                 else if (choice == "4")
                 {
-                    Console.WriteLine("Search for a book by its title");
+                    Console.WriteLine("Search for a book by its title"); 
                      string userInput = Console.ReadLine();
                     myLibrary.Search(userInput);
                 }
